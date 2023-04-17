@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Road
   - Car
+  - Footpath
   layers:
   - Default
   - TransparentFX
@@ -42,6 +43,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Grass
+    uniqueID: 2901946291
+    locked: 0
+  - name: Road
+    uniqueID: 981400469
     locked: 0
   - name: Cars In Back
     uniqueID: 721247221

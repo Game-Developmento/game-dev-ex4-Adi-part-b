@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1102 height=520></canvas>
+      <canvas id="unity-canvas" width=1101 height=522></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Jumper-Frog-Game.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Jumper-Frog-Game.data.br",
-        frameworkUrl: buildUrl + "/Jumper-Frog-Game.framework.js.br",
-        codeUrl: buildUrl + "/Jumper-Frog-Game.wasm.br",
+        dataUrl: buildUrl + "/Jumper-Frog-Game.data",
+        frameworkUrl: buildUrl + "/Jumper-Frog-Game.framework.js",
+        codeUrl: buildUrl + "/Jumper-Frog-Game.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Jumper-Frog-Game",
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1102px";
-        canvas.style.height = "520px";
+        canvas.style.width = "1101px";
+        canvas.style.height = "522px";
       }
 
       loadingBar.style.display = "block";

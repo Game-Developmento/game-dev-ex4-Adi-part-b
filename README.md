@@ -10,10 +10,11 @@ The game was built using Unity version `2021.3.18f1`.
 
 ## Rules & How to Play
 
-1. Visit the Jumper Frog game page in your web browser.
-2. Use the arrow keys (left, right, up, and down) to move the frog.
+1. [Visit the Jumper Frog game page in your web browser.] (<https://adiy55.itch.io/jumper-frog-game>)
+2. Use the **arrow keys** (left, right, up, and down) to move the frog.
 3. If the player reaches the footpath, the game will display a message that they are a winner.
 4. Colliding with a car will result in the game ending, and the player will need to start over from the beginning.
+5. Enjoy the game!
 
 ## Scenes, Scripts, and Prefabs
 

@@ -1806,6 +1806,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8554695007027426877, guid: ae57c106517129a40836fd8ff50a6329, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8554695007967916753, guid: ae57c106517129a40836fd8ff50a6329, type: 3}
       propertyPath: m_Name
       value: Buttons

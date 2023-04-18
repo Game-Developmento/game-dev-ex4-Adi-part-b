@@ -18,14 +18,14 @@ public class TimedSpawnerRandom: MonoBehaviour {
 
     IEnumerator SpawnRoutine() {    // co-routines
         while (true) {
-            float timeBetweenSpawnsInSeconds = Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
-            yield return new WaitForSeconds(timeBetweenSpawnsInSeconds);       // co-routines
             Vector3 positionOfSpawnedObject = new Vector3(
                 transform.position.x + Random.Range(-maxXDistance, +maxXDistance),
                 transform.position.y,
                 transform.position.z);
             GameObject newObject = Instantiate(prefabToSpawn.gameObject, positionOfSpawnedObject, Quaternion.identity);
             newObject.GetComponent<Mover>().SetVelocity(velocityOfSpawnedObject);
+            float timeBetweenSpawnsInSeconds = Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
+            yield return new WaitForSeconds(timeBetweenSpawnsInSeconds);       // co-routines
         }
     }
 }

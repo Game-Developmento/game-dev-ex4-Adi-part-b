@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Useful link: https://gamedevsolutions.com/how-to-detect-camera-edges-collision-in-unity/
 public class KeepInBoundsCollision2D : MonoBehaviour
 {
     [Tooltip("Every object tagged with this tag will trigger the destruction of this object")]

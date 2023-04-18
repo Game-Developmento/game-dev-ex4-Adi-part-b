@@ -384,7 +384,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.25, y: 0.09, z: -10}
   m_LocalScale: {x: 3.2789924, y: 1.5492488, z: 1.2033}
   m_ConstrainProportionsScale: 0
@@ -1451,7 +1451,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -165522665
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f5cc8a4d6831d2042844205f1c890b81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1478,7 +1478,7 @@ Transform:
   m_Children:
   - {fileID: 1507805397}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.098}
 --- !u!1001 &1435025762
 PrefabInstance:
@@ -1756,7 +1756,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5104959624904684245, guid: 04d7353837d630a46bf17f028d9998a7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5104959624904684245, guid: 04d7353837d630a46bf17f028d9998a7, type: 3}
       propertyPath: m_LocalPosition.x

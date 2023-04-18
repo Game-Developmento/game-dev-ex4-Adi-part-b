@@ -56,6 +56,9 @@ TagManager:
   - name: Cars In Front
     uniqueID: 3680234701
     locked: 0
+  - name: Street Lights
+    uniqueID: 3803188035
+    locked: 0
   - name: Text
     uniqueID: 287784857
     locked: 0

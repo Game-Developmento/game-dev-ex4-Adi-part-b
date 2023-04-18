@@ -18,5 +18,9 @@ public class Mover: MonoBehaviour {
     public void SetVelocity(Vector3 newVelocity) {
         this.velocity = newVelocity;
     }
+
+    private void OnBecameInvisible() {
+        Destroy(this.gameObject);
+    }
 }
 

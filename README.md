@@ -12,13 +12,12 @@ The game was built using Unity version `2021.3.18f1`.
 
 1. [Visit the Jumper Frog game page in your web browser.](https://adiy55.itch.io/jumper-frog-game)
 2. Use the **arrow keys** (left, right, up, and down) to move the frog.
-3. If the player reaches the footpath, the game will display a message that they are a winner.
-4. Colliding with a car will result in the game ending, and the player will need to start over from the beginning.
-5. Enjoy the game!
+3. Colliding with a car will result in the game ending, and the player will need to start over from the beginning.
+4. Enjoy the game!
 
 ## Scenes, Scripts, and Prefabs
 
-Jumper Frog was developed using Unity version 2021.3.18f1 and features multiple prefabs, scripts, and scenes that make up the game.
+Jumper Frog features multiple prefabs, scripts, and scenes that make up the game.
 
 ### Scenes
 
@@ -35,13 +34,13 @@ Jumper Frog was developed using Unity version 2021.3.18f1 and features multiple 
 
 * `BorderCollision2D`: This script is used to ensure that the player stays within the game borders.
 
-* `DestroyOnTrigger2D`: This script is used to destroy cars when they collide with the player.
+* `DestroyOnTrigger2D`: This script is used to destroy the player when they collide with a car.
 
 * `GoToNextLevel`: This script is used to load the winner scene when the player reaches the footpath.
 
 * `Replay`: This script is used for the replay button to restart the game.
 
-* `SingletonByName`: This script is used to generate the player only once. This is useful so it stays in the same place when the next scene is loaded.
+* `SingletonByName`: This script is used to generate the player only once.
 
 ### Prefabs
 

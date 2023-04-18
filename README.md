@@ -21,42 +21,26 @@ Jumper Frog was developed using Unity version 2021.3.18f1 and features multiple 
 
 ### Scenes
 
-* `JumperFrog`: This is the main game scene where the player controls the frog and avoids cars.
-* `Winner-Scene`: This scene is loaded when the player successfully reaches the footpath and wins the game.
+1. `JumperFrog`: This is the main game scene where the player controls the frog and avoids cars.
+2. `Winner-Scene`: This scene is loaded when the player successfully reaches the footpath and wins the game.
 
 ### Scripts
 
-#### Mover
+* `Mover`: This script is used to move the cars.
 
-This script is used to move the cars.
+* `Input Mover`: This script is used to move the frog (player) in response to user input.
 
-#### Input Mover
+* `TimedSpawnerRandom`: This script is used to respawn cars at random intervals.
 
-This script is used to move the frog (player) in response to user input.
+* `BorderCollision2D`: This script is used to ensure that the player stays within the game borders.
 
-#### TimedSpawnerRandom
+* `DestroyOnTrigger2D`: This script is used to destroy cars when they collide with the player.
 
-This script is used to respawn cars at random intervals.
+* `GoToNextLevel`: This script is used to load the winner scene when the player reaches the footpath.
 
-#### BorderCollision2D
+* `Replay`: This script is used for the replay button to restart the game.
 
-This script is used to ensure that the player stays within the game borders.
-
-#### DestroyOnTrigger2D
-
-This script is used to destroy cars when they collide with the player.
-
-#### GoToNextLevel
-
-This script is used to load the winner scene when the player reaches the footpath.
-
-#### Replay
-
-This script is used for the replay button to restart the game.
-
-#### SingletonByName
-
-This script is used to generate the player only once. This is useful so it stays in the same place when the next scene is loaded.
+* `SingletonByName`: This script is used to generate the player only once. This is useful so it stays in the same place when the next scene is loaded.
 
 ### Prefabs
 
